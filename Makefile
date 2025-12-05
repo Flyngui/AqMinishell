@@ -29,12 +29,12 @@ libft/libft.a:
 	@$(MAKE) -C libft
 
 clean:
-	@echo -e "$(YELLOW)Removing .o files.$(NC)"
+	@echo -e "$(PURPLE)Removing .o files.$(NC)"
 	@rm -f $(OBJECTS)
 	@$(MAKE) -C libft clean
 
 fclean: clean
-	@echo -e "$(YELLOW)Removing executables.$(NC)"
+	@echo -e "$(PURPLE)Removing executables.$(NC)"
 	@rm -f server client libft/libft.a
 
 
