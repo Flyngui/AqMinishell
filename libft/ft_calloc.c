@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+// initialize an array with all '\0'
 void	*ft_calloc(size_t n, size_t size)
 {
 	void		*arr;

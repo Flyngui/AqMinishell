@@ -32,6 +32,7 @@ static char	*itoa_logic(int n, int lenght, char *arr)
 	return (arr);
 }
 
+// return a string from an integer
 char	*ft_itoa(int n)
 {
 	int		lenght;

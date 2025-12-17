@@ -64,7 +64,7 @@ INCLUDES = -I. -Iget_next_line -Ift_printf
 all: print_message $(NAME)
 
 print_message:
-	@echo -e "$(BLUE)Compiling libft.$(NC)"
+	@echo "$(BLUE)Compiling libft.$(NC)"
 
 clean:
 	@$(RM) $(OBJS)

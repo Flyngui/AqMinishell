@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+// return error
 size_t	ft_error(char *message)
 {
 	if (!message)

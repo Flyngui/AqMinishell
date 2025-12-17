@@ -10,6 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// converts a ascii string to integer
 int	ft_atoi(const char *str)
 {
 	int	i;

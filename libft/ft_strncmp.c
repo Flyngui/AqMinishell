@@ -26,8 +26,6 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		i--;
 	}
 	if (i)
-	{
 		return (*(unsigned char *)s1 - *(unsigned char *)s2);
-	}
 	return (0);
 }
